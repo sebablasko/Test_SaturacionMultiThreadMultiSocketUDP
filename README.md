@@ -1,0 +1,2 @@
+# Test_SaturacionMultiThreadMultiSocketUDP
+Prueba que busca ilustrar como los sockets UDP se van saturando al usar demasiados threads por socket. Se deben considerar los resultados de "Test_ParametrosParaSaturacionSocketUDP" para el número de clientes por socket. Busca responder la pregunta: Si deseo transmitir K paquetes usando N sockets con T threads cada uno, ¿para que valor de N y T se encuentra el óptimo?.
